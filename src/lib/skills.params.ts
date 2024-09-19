@@ -113,7 +113,7 @@ const MY_SKILLS = [
 		color: 'blue',
 		description:
 			'FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. It is designed to be easy to use and to help developers create high-quality APIs quickly. FastAPI allows you to declare the validation of data types and is built on top of Starlette for web apps and Pydantic for data handling.',
-		logo: Assets.FastApi,
+		logo: Assets.FastAPI,
 		name: 'FastAPI'
 	}),
 ];
