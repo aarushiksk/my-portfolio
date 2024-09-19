@@ -78,6 +78,9 @@ const Assets = {
 	GoogleCloud: a('cloud.png'),
 	flask: a('flask.png'),
 	drawing: a('drawing-alphabet.png'),
+	NextJS: a('nextjs-icon.svg'),
+	Gemini:a('gemini.svg'),
+	Drizzle:a('drizzle.svg'),
 };
 
 export default Assets;

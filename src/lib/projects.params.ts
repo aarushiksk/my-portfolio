@@ -5,6 +5,23 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'slick-portfolio-angular',
+		color: '#d8e35e',
+		description:
+			'Seraph AI is your ultimate AI-powered interview preparation platform. Practice for mock interviews tailored to your target job title, years of experience (YOE), and specific job description (JD). Get instant AI-generated feedback on your performance, including actionable insights and the correct answers to help you ace your next interview.',
+		shortDescription:
+			'Ace your interviews today by leveraging Generative AI.',
+		links: [{ to: 'https://seraph-ai-web.vercel.app/', label: 'Check Website' }],
+		logo: Assets.drawing,
+		name: 'Seraph AI',
+		period: {
+			from: new Date(2024, 8, 30)
+		},
+	skills: getSkills('fastapi', 'js', 'sass','ts','nextjs','gemini','drizzle'),
+		type: 'Generative AI',
+	},
+	
+	{
+		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
 			'Engineered a precise ML model, achieving an impressive 98.58% accuracy in recognizing handwritten alphabetic characters.<br> Deployed the model on Google Cloud Platform (GCP) for scalable performance.<br> Developed a sleek user interface using Flask, CSS3, and JavaScript, ensuring a user-friendly interaction.',
