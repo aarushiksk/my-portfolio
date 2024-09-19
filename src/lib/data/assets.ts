@@ -81,6 +81,7 @@ const Assets = {
 	NextJS: a('nextjs-icon.svg'),
 	Gemini:a('gemini.svg'),
 	Drizzle:a('drizzle.svg'),
+	FastAPI:a('FastAPI.svg'),
 };
 
 export default Assets;
