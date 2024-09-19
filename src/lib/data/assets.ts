@@ -14,7 +14,7 @@ const Assets = {
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
-	FastApi: a('fastapi'),
+	
 	Flask: a('flask.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
@@ -81,7 +81,7 @@ const Assets = {
 	NextJS: a('nextjs-icon.svg'),
 	Gemini:a('gemini.svg'),
 	Drizzle:a('drizzle.svg'),
-	FastAPI:a('FastAPI.svg'),
+	FastAPI:a('fastapi.png'),
 };
 
 export default Assets;
